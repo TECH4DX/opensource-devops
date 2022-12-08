@@ -11,6 +11,7 @@ import org.devops.*;
  * @return
  */
 def toLowerCase(str) {
+    echo "啥啊！！";
     def tools = new Tools();
 
     return tools.toLowerCase(str);
