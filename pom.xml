@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--artifactId是你自己项目的名字，可以随便改-->
+    <groupId>com.opensource</groupId>
+    <artifactId>groovy-library</artifactId>
+    <version>1.0.0</version>
+    <!--    <packaging>war</packaging>-->
+    <packaging>jar</packaging>
+
+    <!--这里的名字是你Demo的名字，可以随便改-->
+    <name>groovy-library</name>
+    <description>Project for Groovy-JDBCDemo</description>
+
+    <!--notice 依赖的jar包-->
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.codehaus.groovy/groovy-all -->
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-all</artifactId>
+            <version>3.0.12</version>
+            <type>pom</type>
+        </dependency>
+
+    </dependencies>
+
+</project>
