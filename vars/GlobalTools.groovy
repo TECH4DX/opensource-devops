@@ -1,4 +1,4 @@
-import org.devops.tools;
+import org.devops.*;
 
 //def call(){
 //    println helle nihao i am vars
@@ -11,7 +11,7 @@ import org.devops.tools;
  * @return
  */
 def toLowerCase(String str) {
-    def tools = new tools();
+    def tools = new Tools();
 
     return tools.toLowerCase(str);
 
