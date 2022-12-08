@@ -4,6 +4,10 @@ def call(){
    println "helle nihao i am vars"
 }
 
+def sayHello(){
+   
+   ehco "groovy sat hello!!"
+}
 
 /**
  * 字符串大小写转换
