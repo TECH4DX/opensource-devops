@@ -10,7 +10,7 @@ def call(){
  * @param str
  * @return
  */
-def toLowerCase(str) {
+def toLowerCase(String str) {
     echo "啥啊！！";
     def tools = new Tools();
 
