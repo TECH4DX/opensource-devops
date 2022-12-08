@@ -10,7 +10,7 @@ import org.devops.*;
  * @param str
  * @return
  */
-def toLowerCase(String str) {
+def toLowerCase(str) {
     def tools = new Tools();
 
     return tools.toLowerCase(str);
