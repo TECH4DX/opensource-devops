@@ -1,4 +1,4 @@
-import org.devops.tools;
+import org.devops.*;
 
 //def call(){
 //    println helle nihao i am vars
