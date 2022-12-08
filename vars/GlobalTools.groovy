@@ -1,8 +1,8 @@
 import org.devops.*;
 
-//def call(){
-//    println helle nihao i am vars
-//}
+def call(){
+    println helle nihao i am vars
+}
 
 
 /**
