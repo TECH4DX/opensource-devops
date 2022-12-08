@@ -10,7 +10,8 @@ import org.devops.*;
  * @param str
  * @return
  */
-def toLowerCase(String str) {
+def toLowerCase(str) {
+    echo "啥啊！！";
     def tools = new Tools();
 
     return tools.toLowerCase(str);
