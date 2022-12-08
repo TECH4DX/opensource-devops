@@ -6,7 +6,7 @@ def call(){
 
 def sayHello(){
    
-   ehco "groovy sat hello!!"
+   echo "groovy sat hello!!"
 }
 
 /**
