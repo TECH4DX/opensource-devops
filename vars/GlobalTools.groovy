@@ -1,7 +1,7 @@
 import org.devops.*;
 
 def call(){
-   println helle nihao i am vars
+   println "helle nihao i am vars"
 }
 
 
