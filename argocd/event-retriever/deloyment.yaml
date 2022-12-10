@@ -22,7 +22,7 @@ spec:
       #           values: ["true"]
       containers:
         - name: event-retriever
-          image: guoqiangqi/event-retriever:test
+          image: harbor.mlops.pub/event_retriever/test:v1
           imagePullPolicy: Always
           ports:
             - containerPort: 8001
