@@ -8,7 +8,57 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../Huawei/one-account-demo/logs/run.log">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Huawei/one-account-demo/src/main/java/com/hw/demo/dao/mapper/OpenSourceEmployeeDOMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Huawei/one-account-demo/src/main/java/com/hw/demo/handle/account/OneAccountSearchHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Huawei/one-account-demo/src/main/java/com/hw/demo/handle/account/impl/OneAccountSearchForKeyWordImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Huawei/one-account-demo/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Huawei/one-account-demo/src/test/java/com/hw/oneaccountdemo/OneAccountDemoApplicationTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/.idea/modules.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/argocd/event-retriever/deloyment.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/argocd/event-retriever/service.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/argocd/opendataology-serviceset/deployment.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/argocd/opendataology-serviceset/service.yaml">
           <value>
             <set />
           </value>
@@ -49,6 +99,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/vars/globalTools.groovy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/vars/globaltools.groovy">
           <value>
             <set />
           </value>
