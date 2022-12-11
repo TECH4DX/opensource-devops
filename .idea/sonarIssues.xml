@@ -38,6 +38,31 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../event-retriever/Jenkinsfile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../event-retriever/Jenkinsfile.groovy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../event-retriever/src/server.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../event-retriever/src/test/hello_word_test.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../gitee-jenkins-plugin/src/main/java/com/gitee/jenkins/publisher/GiteeMessagePublisher.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/.idea/modules.xml">
           <value>
             <set />
@@ -59,6 +84,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/argocd/opendataology-serviceset/service.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config/jenkins-slave/Dockerfile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config/jenkins-slave/README.md">
           <value>
             <set />
           </value>
