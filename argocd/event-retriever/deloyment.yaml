@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: event-retriever
-  replicas: 1 # tells deployment to run 2 pods matching the template
+  replicas: 2 # tells deployment to run 2 pods matching the template
   template:
     metadata:
       labels:
@@ -22,7 +22,7 @@ spec:
       #           values: ["true"]
       containers:
         - name: event-retriever
-          image: harbor.mlops.pub/event_retriever/test:v1
+          image: harbor.mlops.pub/event_retriever/test:v2
           imagePullPolicy: Always
           ports:
             - containerPort: 8001
