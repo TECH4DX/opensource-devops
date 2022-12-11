@@ -22,7 +22,7 @@ spec:
       #           values: ["true"]
       containers:
         - name: event-retriever
-          image: harbor.internal.domain/event_retriever/test:v2
+          image: harbor.internal.domain/library/event-retriever/event-retriever_20221211163546_2:v1
           imagePullPolicy: Always
           ports:
             - containerPort: 8001
