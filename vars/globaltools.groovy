@@ -28,7 +28,7 @@ def toLowerCase(String str) {
  * @param prId
  * @return
  */
-def codeLicenseCheck(Integer prId) {
+def codeLicenseCheck(prId) {
     def compliancePerformer = new CompliancePerformer()
     compliancePerformer.codeLicenseCheck(prId)
 }

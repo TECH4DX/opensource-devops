@@ -43,7 +43,7 @@ static def http_get(url, isJson = false) {
 
 }
 
-def codeLicenseCheck(Integer prId) {
+def codeLicenseCheck(prId) {
     try {
         String url = "https://compliance.openeuler.org/sca?prUrl=https://gitee.com/ljsnb/event-retriever/pulls/" + String.valueOf(prId)
         def res = http_get(url, true)
