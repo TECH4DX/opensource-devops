@@ -1,4 +1,6 @@
-package org.devops;
+package org.devops
+
+import groovy.json.JsonSlurper
 
 
 // def curDate()
@@ -12,8 +14,7 @@ package org.devops;
 //     return str;
 // }
 
-def checkOut()
-{
+def checkOut() {
 
     try {
         checkout(
@@ -65,4 +66,28 @@ def splitStr(str) {
     } catch (e) {
         println "异常" + e;
     }
+
 }
+
+// 将 {"age":18,"name":"Tom"} 字符串进行反序列化
+def jsonSlurper = new JsonSlurper()
+
+// 将字符串进行 json 反序列化操作 , 得到 map 集合
+def jsonObject = jsonSlurper.parseText('{"age":18,"name":"Tom"}');
+// 打印反序列化结果
+println jsonObject
+
+class Student {
+    def name
+    def age
+}
+
+class Cat {
+    def name
+    def age
+}
+
+//不支持跨文件
+Student student = (Student) jsonObject
+Cat cat = (Cat) jsonObject
+println "${student.age} , ${cat.name}"

@@ -22,3 +22,13 @@ def toLowerCase(String str) {
     return tools.toLowerCase(str);
 
 }
+
+/**
+ * 代码license扫描
+ * @param prId
+ * @return
+ */
+def codeLicenseCheck(Integer prId) {
+    def compliancePerformer = new CompliancePerformer()
+    compliancePerformer.codeLicenseCheck(prId)
+}
